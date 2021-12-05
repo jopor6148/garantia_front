@@ -1,0 +1,28 @@
+.generalcontainer{
+  background-color: #ede9e9;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 100%;
+  position: absolute;
+  nav{
+    background: #f5f0f0;
+    border-radius: 5px;
+    & > div span{ 
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .divlonks{
+      width: 200px;
+      a{
+        padding: 3px 10px;
+        text-decoration: none;
+        background-color: #f5f0f0;
+        border-radius: 5px;
+      }
+    }
+  }
+  .exit{
+    cursor: pointer;
+  }
+}

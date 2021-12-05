@@ -1,0 +1,8 @@
+<div class="central-box">
+  <div [formGroup]="form">
+    <h3 >Iniciar</h3>
+    <input type="text" formControlName="username" placeholder="username" class="form-control">
+    <input type="password" formControlName="password" placeholder="password" class="form-control">
+    <button (click)="login()" class="btn btn-primary"> Login </button>
+  </div>
+</div>

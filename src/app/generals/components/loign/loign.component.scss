@@ -1,0 +1,24 @@
+.central-box{
+  margin: 10% auto;
+  display: block;
+  width: 450px;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  background: #e7e6e2;
+  border-radius: 5px;
+  & > div * {
+    display: block;
+    margin-top: 10px;
+  }
+  input{
+    width: 100%;
+    border-radius: 3px;
+  }
+  button{
+    width: 100px;
+    margin: 0 auto;
+  }
+  h3{
+    text-align: center;
+  }
+}
